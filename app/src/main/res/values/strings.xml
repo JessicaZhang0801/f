@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IFilm</string>
+    <string name="character"><u><b></b></u></string>
+    <string name="director"><u><b></b></u></string>
+</resources>

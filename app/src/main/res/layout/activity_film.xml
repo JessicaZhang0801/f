@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFD5"
+    tools:context="compr.example.a1694603.finalproject1.film"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/SearchText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="search"
+            android:layout_weight="3"/>
+        <Button
+            android:id="@+id/Search"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="search"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:onClick="Search"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Next Page"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:onClick="nextPage"/>
+        <TextView
+            android:id="@+id/mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/myStuff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:headerDividersEnabled="false">
+
+    </ListView>
+
+
+</LinearLayout>
